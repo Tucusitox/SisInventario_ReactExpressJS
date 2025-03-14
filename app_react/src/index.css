@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+body{
+  margin: 0px;
+  padding: 0px;  
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #50e3c2, #2d9cdb);
+}
+/* ESTILOS GENERALES PARA LA VISTA DEL LOGIN */
+.MainLayoutLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.MainLayoutLogin section {
+  width: 450px;
+  height: 340px;
+}
+.form-floating i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+/* ESTILOS BOTON DE USUARIO NAVBAR */
+.dropdown-menu a:hover {
+  background-color: var(--bs-dark-bg-subtle);
+}
+
+.dropdown-menu form:hover {
+  background-color: var(--bs-dark-bg-subtle);
+}
+/* ESTILOS DE MIN CARDS DEL DASHBOARD */
+.MiniCards{
+  background: linear-gradient(to right, #50e3c2, #2d9cdb);
+}
+/* ESTILOSD EL SIDEBAR */
+aside{
+  background: linear-gradient(to right, #50e3c2, #2d9cdb);
+}
+
+aside .SidebarLink:hover {
+  color: black;
+  text-shadow: 0 0 10px #0d6efd;
+}
+/* ESTILOS APRA TABLAS */
+.table thead tr th{
+  color: #0d6efd;
+}
+.table tbody tr:hover td {
+  cursor: pointer;
+  background-color: rgb(223, 217, 217);
+}
+/* ESTILOS DE TEXTOS */
+h3{
+  color: #0d6efd;
+}
+span{
+  color: black;
+  margin-left: 5px;
+}
+/* RESPONSIVE GENRAL */
+@media (max-width: 800px) {
+  .MainLayoutLogin section {
+    width: 400px !important;
+  }
+  .col-lg-6{
+    text-align: start !important;
+  }
+}
